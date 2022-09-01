@@ -1,0 +1,118 @@
+<!-- Create an html page that shows a news in detail. The news html page should include 
+- navigation menu
+- heading
+- image with proper alt tags. Use the figure and figure caption tags for this. The image should be in gif format and not png/jpg.
+- description with some bold text, italic text and an ordered list.
+- a table with some data regarding the news
+- a link to some other news called 'Related News'
+- advertisement of the following youtube video https://www.youtube.com/watch?v=81LFwfOulLU
+- proper title, meta keywords, meta viewport, meta charset and meta description tags.
+After completing this, right click on the browser and select 'Inspect Element' and view the source code and try to understand how it is shown in it.-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Latest News</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML,CSS,Newsportal,">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+</head>
+<!-- Header Menu of the Page -->
+<header>	
+	<!-- Top header menu containing
+		logo and Navigation bar -->
+        <center>
+        <div>
+		<!-- Logo -->
+		<div>
+			<img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmPIUIN3V1jFQr5AGaAsw8BEX6Xh-gunsJOF-ep_TGiozQOs8v83_SGpoSNWr8vORKsDg&usqp=CAU" alt="logo for newspaper"</center>
+            <b>NO:1 ONLINE NEWSPORTAL</b>
+		</div>
+        </center>
+		<!-- Navigation Menu -->
+		<nav>
+		<div>
+			
+				<b><span class="active"><a href="#">Home</a></span>&nbsp;
+				<span><a href="#">About Us</a></span>&nbsp;
+				<span><a href="#">News</a></span>&nbsp;
+				<span><a href="#">Careers</a></span>&nbsp;
+				<span><a href="#">Contact Us</a></span></b>
+      
+		</div>
+		</nav>
+	</div>
+	</div>
+</header>
+
+
+<fieldset style="width:20%; border:3px solid #4238ca; background:#f6f8ff;float:right"><h4>RELATED NEWS</h4>
+
+    <a href="https://businessconnectindia.in/success-story-of-ratan-tata/"> <b>Success Story of Ratan Tata, meet India’s Charismatic Leader </b></a>
+    <br><p>Advertisement</p>
+    <iframe width="300" height="500" src="https://www.youtube.com/embed/81LFwfOulLU" align="right"></iframe> 
+</fieldset>
+
+
+
+<fieldset>
+    <center><h2><b>SUCCESS STORY OF RATAN TATA</b></h2></center>
+  <figure>
+<center><img src="data:image/jpeg;base64,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" alt="Ratan Tata">
+<figcaption>fig1:RatanTata</figcaption></center>
+  </figure><br>
+    <p>The success story of Ratan Tata – Naval Ratan Tata is a well-known personality who needs no introduction. There isn’t a single person in India who hasn’t heard this name. Many new entrepreneurs look up to him as an example. 
+        He is a straightforward individual with a big heart.
+        Even though he has wealthy family, he never took power or wealth for granted.</p>
+    
+     
+  <p>
+He had several failures during his career, however in 1998, he launched the Tata Indica Car. Unfortunately, the automobile failed to attract buyer interest, prompting the board and committee members to recommend that Ratan Tata sell the vehicle to Ford. Ratan Tata then traveled to Ford’s headquarters to negotiate the terms of the deal. Ford Chairmen said that How did you get into the company when you have no experience with passenger cars?” We are doing you a favor by purchasing your company.
+
+After knowing this, he returned to Mumbai without signing the contract. This word did not depress him, but rather boosted his self-assurance. With his passion and dedication, he hoped to overcome the critics. Tata Indica was profitable after a few years, and Ford Company released two luxury automobiles, Jaguar and Land Rover, at the same time.
+However, Ford Company suffered a loss at the time. The tables were turned, and Ratan Tata proposed to the Ford Motor Company.
+  </p>
+
+    <p>
+        He stated that he was willing to purchase these automobiles. He ordered the Ford Chairman and members of the committee to travel to Mumbai to finalize the transaction. As a result, he purchased Ford’s Jaguar and Land Rover divisions and later profited from them. This was his silent revenge for the setback he had suffered.
+        His hard work and intelligence have tremendously assisted him on his path to success.
+    </p>
+
+    <h2><i><b>Companies owned by Tata Group</b></i></h2>
+
+<ol>
+  <li>Tata Consultancy Services</li>
+  <li>Tata Steel Limited</li>
+  <li>Jaguar Land Rover</li>
+  <li>Tata Motors Limited</li>
+  <li>Titan Company Limited</li>
+</ol>  <br>
+<table style="width:50%" border="1px solid black">
+   <tr>
+        <th align="left">Name</th>
+        <th align="left">Ratan Tata</th>
+      </tr>
+      <tr>
+        <td>Net Worth (2021)</td>
+        <td>$1 Billion</td>
+      </tr>
+      <tr>
+        <td>Net Worth in INR</td>
+        <td>INR 7416 Crore</td>
+      </tr>
+      <tr>
+        <td>Monthly Income and Salary</td>
+        <td>90 Crore +</td>
+      </tr> 
+    
+</table>
+  
+</fieldset>
+</center>
+
+<p>sample newswebsite</p>
+<p>content credits:businessconnectindia.in</p>
+</html>
